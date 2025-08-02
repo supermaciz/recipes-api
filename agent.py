@@ -101,7 +101,7 @@ async def add_review_to_state(review):
 
 
 llm = OpenAI(
-    model=os.getenv("OPENAI_MODEL"),
+    model="gpt-4o-mini",
     api_key=os.getenv("OPENAI_API_KEY"),
     api_base=os.getenv("OPENAI_BASE_URL"),
 )
