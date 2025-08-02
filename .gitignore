@@ -7,7 +7,7 @@ __pycache__/
 venv/
 env/
 
-.env
+../../PycharmProjects/Building a PR Review Agent/.env
 
 # Django specific
 *.log
